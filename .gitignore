@@ -1,0 +1,17 @@
+# 运行时产物（不入库）
+driver/
+agent/
+logs/
+*.log
+batteryguard.config.json
+hardware-block.json
+hw-runtime.json
+
+# 构建产物
+BatteryGuard.exe
+*.obj
+*.pdb
+
+# 临时
+.temp/
+*.tmp
